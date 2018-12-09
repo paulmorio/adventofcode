@@ -23,8 +23,6 @@ with open(data_fp, "r") as df:
 			max_y = y
 
 
-# data = [map(int, i.split(', ')) for i in open('data.txt').readlines()]
-
 grid = {}
 for i in range(max_x):
 	for j in range(max_y):
